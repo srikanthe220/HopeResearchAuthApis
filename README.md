@@ -1,12 +1,12 @@
 # HopeResearchAuthApis
-Steps :
+#Steps :
     1. npm install
     2. npm start
-dependencies:
+#dependencies:
   Db:
      using mongoDB
    
-Apis
+#Apis
  1. login: Post call "http://localhost:3000/user/login"
 
        ex:request body should have this parametes
