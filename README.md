@@ -9,23 +9,28 @@ dependencies
 Apis
  1. login: Post call "http://localhost:3000/user/login"
 
-       ex:body should have this parametes
-        {
+       ex:request body should have this parametes
+       {
         "name":"srikanth",
         "email":"srikanth@gmail.com",
         "password":"test"
-      }
-      response:
+        } 
+        
+       url http://localhost:3000/user/login
+       response:
           {
             "status":"user added sucessfully"
           }
 
  2. createUser:Post call "http://localhost:3000/user/login"
-       ex:body should have these parameters
+       ex:request body should have these parameters
        {
           "email":"srikanth@gmail.com",
           "password":"test"
        }
+       
+       url: http://localhost:3000/user/login
+       
        response:
               {
                 "message": "logged in successfully"
