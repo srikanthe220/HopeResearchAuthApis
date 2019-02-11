@@ -36,7 +36,7 @@
                 "message": "logged in successfully"
               }
 
-  #### 3. forgotAndreset:Put call "http://localhost:3000/user/"  (using query params)
+  #### 3. forgotAndreset:Put call "http://localhost:3000/user/forgetAndReset?email=<email_id>&password=****"  (using query params)
              ex: url : http://localhost:3000/user/forgetAndReset?email=srikanth@gmail.com&password=test1      
 
              response:
