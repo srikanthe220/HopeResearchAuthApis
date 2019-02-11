@@ -9,7 +9,7 @@
 ## Apis
  #### 1. login: Post call "http://localhost:3000/user/login"
 
-       ex:request body should have this parametes
+       ex:request body should have this parameters
        {
         "name":"srikanth",
         "email":"srikanth@gmail.com",
